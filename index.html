@@ -344,10 +344,74 @@
         }
      
 
-    @media(max-width: 600px){
-        .row{
-            grid-template-columns: 1fr;
-        }
+    @media (max-width: 600px) {
+
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav img{
+        width: 180px;
+    }
+
+    nav p{
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li{
+        margin-right: 0;
+    }
+
+    section.course p{
+        font-size: 18px;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .cards,
+    .reviews,
+    section.lead,
+    #map{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card,
+    .review{
+        width: 90%;
+    }
+
+    table{
+        width: 95%;
+        margin: auto;
+    }
+
+    #map iframe{
+        width: 100%;
+        height: 300px;
+        min-width: auto;
+    }
+
+    .form{
+        width: 90%;
+    }
+
+    div p[style]{
+        width: 95% !important;
+        font-size: 16px !important;
+    }
+
+    .lead div{
+        font-size: 18px;
+    }
 
     }
 
